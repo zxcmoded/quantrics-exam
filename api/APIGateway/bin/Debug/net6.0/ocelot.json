@@ -1,0 +1,51 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Invoice",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5298
+                }
+            ],
+            "UpstreamPathTemplate": "/api/Invoice",
+            "UpstreamHttpMethod": [
+                "Get",
+                "Post"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/Asset",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5266
+                }
+            ],
+            "UpstreamPathTemplate": "/api/Asset",
+            "UpstreamHttpMethod": [
+                "Put",
+                "Post",
+                "Delete"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/Asset/search",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5266
+                }
+            ],
+            "UpstreamPathTemplate": "/api/Asset/search",
+            "UpstreamHttpMethod": [
+                "Post",
+                "OPTIONS"
+            ]
+        }
+    ],
+    "GlobalConfiguration": {}
+}
