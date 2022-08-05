@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kennethmontealto/Desktop/exam/api/InvoiceService/InvoiceService.csproj": {}
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/InvoiceService/InvoiceService.csproj": {}
   },
   "projects": {
-    "/Users/kennethmontealto/Desktop/exam/api/InvoiceService/InvoiceService.csproj": {
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/InvoiceService/InvoiceService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/api/InvoiceService/InvoiceService.csproj",
+        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/InvoiceService/InvoiceService.csproj",
         "projectName": "InvoiceService",
-        "projectPath": "/Users/kennethmontealto/Desktop/exam/api/InvoiceService/InvoiceService.csproj",
+        "projectPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/InvoiceService/InvoiceService.csproj",
         "packagesPath": "/Users/kennethmontealto/.nuget/packages/",
-        "outputPath": "/Users/kennethmontealto/Desktop/exam/api/InvoiceService/obj/",
+        "outputPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/InvoiceService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kennethmontealto/.nuget/NuGet/NuGet.Config"

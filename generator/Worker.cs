@@ -41,6 +41,24 @@ public class Worker : BackgroundService
                 invoice.Year = issuingDate.Year;
                 invoice.TotalAmount = totalAssetPrice;
                 db.SaveChanges();
+
+                NotifyInvoiceChanges();
+            }
+        }
+    }
+    public void NotifyInvoiceChanges()
+    {
+        using (var client = new HttpClient())
+        {
+            client.BaseAddress = new Uri("http://localhost:5298/api/Invoice/notify");
+            //HTTP GET
+            var responseTask = client.GetAsync("");
+            responseTask.Wait();
+
+            var result = responseTask.Result;
+            if (result.IsSuccessStatusCode)
+            {
+                // todo log success
             }
         }
     }

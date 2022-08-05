@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kennethmontealto/Desktop/exam/api/APIGateway/APIGateway.csproj": {}
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/APIGateway.csproj": {}
   },
   "projects": {
-    "/Users/kennethmontealto/Desktop/exam/api/APIGateway/APIGateway.csproj": {
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/api/APIGateway/APIGateway.csproj",
+        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "/Users/kennethmontealto/Desktop/exam/api/APIGateway/APIGateway.csproj",
+        "projectPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/APIGateway.csproj",
         "packagesPath": "/Users/kennethmontealto/.nuget/packages/",
-        "outputPath": "/Users/kennethmontealto/Desktop/exam/api/APIGateway/obj/",
+        "outputPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kennethmontealto/.nuget/NuGet/NuGet.Config"

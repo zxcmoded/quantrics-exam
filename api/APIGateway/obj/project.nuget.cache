@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JCIdJ2KzNC02NRfYWJfZBS1sYEytTBZiCu+1aWlUteY9q2BP1n9ZbmNO3THLrSpEgZlM3wzHtGiK86I2GEOvQQ==",
+  "dgSpecHash": "6rD13mieCG/IZZ/kjSYb//QfSTng4sa6GWmdVxCbmjxpojHeEulLeOtqTkKjzHYeGTPfK4B/yNuy7Px0RUGsEg==",
   "success": true,
-  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/api/APIGateway/APIGateway.csproj",
+  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/APIGateway/APIGateway.csproj",
   "expectedPackageFiles": [
     "/Users/kennethmontealto/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
     "/Users/kennethmontealto/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.1/microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",

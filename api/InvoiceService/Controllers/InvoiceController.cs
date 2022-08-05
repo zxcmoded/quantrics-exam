@@ -1,13 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 
 [ApiController]
 [Route("api/[controller]")]
 public class InvoiceController : ControllerBase
 {
     private readonly IInvoiceRepository invoiceRepository;
-    public InvoiceController(IInvoiceRepository invoiceRepository)
+    private readonly IHubContext<InvoiceHub> hubContext;
+    public InvoiceController(IInvoiceRepository invoiceRepository, IHubContext<InvoiceHub> hubContext)
     {
         this.invoiceRepository = invoiceRepository;
+        this.hubContext = hubContext;
     }
     [HttpGet]
     public IActionResult GetInvoices()
@@ -33,5 +36,14 @@ public class InvoiceController : ControllerBase
         {
             return BadRequest(ex.Message);
         }
+    }
+    // web socket push all changes in invoice
+    [HttpGet]
+    [Route("notify")]
+    public IActionResult NotifyAll()
+    {
+        this.hubContext.Clients.All.SendAsync("RefreshInvoiceList");
+
+        return Ok();
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kennethmontealto/Desktop/exam/api/AssetService/AssetService.csproj": {}
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/AssetService.csproj": {}
   },
   "projects": {
-    "/Users/kennethmontealto/Desktop/exam/api/AssetService/AssetService.csproj": {
+    "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/AssetService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/api/AssetService/AssetService.csproj",
+        "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/AssetService.csproj",
         "projectName": "AssetService",
-        "projectPath": "/Users/kennethmontealto/Desktop/exam/api/AssetService/AssetService.csproj",
+        "projectPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/AssetService.csproj",
         "packagesPath": "/Users/kennethmontealto/.nuget/packages/",
-        "outputPath": "/Users/kennethmontealto/Desktop/exam/api/AssetService/obj/",
+        "outputPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kennethmontealto/.nuget/NuGet/NuGet.Config"

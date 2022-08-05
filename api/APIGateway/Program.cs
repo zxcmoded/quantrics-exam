@@ -30,7 +30,7 @@ app.MapControllers();
 
 app.UseCors(opt =>
 {
-    opt.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:8080");
 });
 
 app.UseOcelot().Wait();

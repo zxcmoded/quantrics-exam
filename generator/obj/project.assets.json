@@ -2683,11 +2683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/job/job.csproj",
+      "projectUniqueName": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/generator/job.csproj",
       "projectName": "job",
-      "projectPath": "/Users/kennethmontealto/Desktop/exam/job/job.csproj",
+      "projectPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/generator/job.csproj",
       "packagesPath": "/Users/kennethmontealto/.nuget/packages/",
-      "outputPath": "/Users/kennethmontealto/Desktop/exam/job/obj/",
+      "outputPath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/generator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kennethmontealto/.nuget/NuGet/NuGet.Config"

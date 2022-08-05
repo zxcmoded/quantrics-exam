@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1sHBvbiLhnq/hWA8XaNW54VsEg6olydZ0ggs5wFxdcdMSHBau0PBCnBeAzIgqRwo2B15EdU/J2ld7XVtycI/2w==",
+  "dgSpecHash": "2qK/FSlzM9tsAj0z2ls0xeGwmrDYmCKPqVFN9AMqO/rVI5RxPaPvNKvZCi6DD9wWjKH/MFVi2MLzVrWnwK7tpg==",
   "success": true,
-  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/api/AssetService/AssetService.csproj",
+  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/api/AssetService/AssetService.csproj",
   "expectedPackageFiles": [
     "/Users/kennethmontealto/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/kennethmontealto/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

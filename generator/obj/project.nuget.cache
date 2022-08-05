@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C/lVqFCFsPx3BUdxaTt7imTDKi7jHDFnmsmrNxKZpxcOxvWwOQk8khdTpJ406/9QYLkl3IBEznyytpvh406FKQ==",
+  "dgSpecHash": "OBajKMaueFTpy6WvyGcFd+2orfnjI/WvwGgjNH6mSywyF3JoFr/MbjIzVjpabvDQ1hGHVToLLjQfp13WPBLEdA==",
   "success": true,
-  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/job/job.csproj",
+  "projectFilePath": "/Users/kennethmontealto/Desktop/exam/repo/quantrics-exam/generator/job.csproj",
   "expectedPackageFiles": [
     "/Users/kennethmontealto/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/kennethmontealto/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
